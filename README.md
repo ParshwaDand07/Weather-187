@@ -30,7 +30,7 @@ pip install -r seaborn
 pip install -r matplotlib
 pip install -r calendar
 ```
-
+## Usage
 ```
 # Import necessary modules
 import pandas as pd
@@ -63,8 +63,11 @@ lasso_model = Lasso(alpha=1.0)
 ridge_model = Ridge(alpha=1.0)
 elasticnet_model = ElasticNet(alpha=1.0, l1_ratio=0.5)
 svr_model = SVR(kernel='linear')
+```
 
-#Contributing
+
+## Contributing
+```
 Fork the project.
 Create a new branch (git checkout -b feature).
 Make changes and commit them (git commit -m 'Add feature').
